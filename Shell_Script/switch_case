@@ -1,0 +1,14 @@
+#!/bin/bash
+echo $0
+echo $1
+case $1 in
+    start)
+        echo "Starting the service"
+        ;;
+    stop)
+        echo "Stopping the service"
+        ;;
+    *)
+        echo "Do this"
+        ;;
+esac
